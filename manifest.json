@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Magnetic Fusion Theme",
+  "version": "1.1",
+  "description": "Tokamak fusion inspired Chrome theme with lead brick frame.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [25, 25, 25],
+      "toolbar": [40, 40, 40],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [200, 200, 200],
+      "bookmark_text": [230, 230, 230],
+      "ntp_background": [15, 15, 15],
+      "ntp_text": [255, 255, 255],
+      "button_background": [60, 120, 200],
+      "tab_background": [35, 35, 35],
+      "bookmark_bar": [30, 30, 30]
+    },
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png",
+      "theme_frame": "images/frame.png"
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_background_size": "cover"
+    }
+  }
+}
